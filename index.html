@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D4vide106 - Portfolio Professionale</title>
+    <meta name="description" content="Portfolio professionale di D4vide106 - Discord Bot Developer, Full Stack Developer, Game Server Administrator">
+    <meta name="keywords" content="Discord Bot, Developer, Full Stack, Game Server, Modpack, D4vide106">
+    <meta name="author" content="D4vide106">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="D4vide106 - Portfolio Professionale">
+    <meta property="og:description" content="Discord Bot Developer & Full Stack Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://d4vide106.github.io/myportfolio">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/particles.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Left Panel - Profile & Skills -->
+        <aside class="left-panel">
+            <div class="profile-section">
+                <!-- Discord Avatar -->
+                <div class="avatar-container">
+                    <img id="discord-avatar" src="assets/images/default-avatar.png" alt="D4vide106 Avatar" class="profile-avatar">
+                    <div class="status-indicator" id="discord-status">
+                        <span class="status-dot"></span>
+                    </div>
+                </div>
+                
+                <!-- Profile Info -->
+                <div class="profile-info">
+                    <h1 class="profile-name">Davide</h1>
+                    <h2 class="profile-username">@D4vide106</h2>
+                    <div class="profile-titles">
+                        <span class="title-badge">Discord Bot Developer</span>
+                        <span class="title-badge">Full Stack Developer</span>
+                        <span class="title-badge">Game Server Admin</span>
+                    </div>
+                </div>
+                
+                <!-- Discord Activity -->
+                <div class="discord-activity" id="discord-activity">
+                    <div class="activity-header">
+                        <i class="fab fa-discord"></i>
+                        <span>Attività Discord</span>
+                    </div>
+                    <div class="activity-content" id="activity-content">
+                        <span class="loading">Caricamento...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h3 class="section-title">
+                    <i class="fas fa-code"></i>
+                    Competenze Tecniche
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-level expert"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                        <div class="skill-level expert"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord.js</span>
+                        <div class="skill-level expert"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <div class="skill-level advanced"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                        <div class="skill-level advanced"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                        <div class="skill-level intermediate"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Links Section -->
+            <div class="links-section">
+                <h3 class="section-title">
+                    <i class="fas fa-link"></i>
+                    Collegamenti
+                </h3>
+                <div class="social-links">
+                    <a href="https://github.com/D4vide106" target="_blank" class="social-link github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://discord.com/users/768071128999788555" target="_blank" class="social-link discord">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                    <a href="https://fiverr.com/d4vide106" target="_blank" class="social-link fiverr">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Fiverr</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Right Panel - Timeline & Projects -->
+        <main class="right-panel">
+            <!-- Timeline Section -->
+            <section class="timeline-section">
+                <h3 class="section-title">
+                    <i class="fas fa-timeline"></i>
+                    Il Mio Percorso
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020</div>
+                        <div class="timeline-content">
+                            <h4>Inizio del Percorso</h4>
+                            <p>Primi passi nella programmazione e scoperta delle community online</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h4>Discord Bot Development</h4>
+                            <p>Specializzazione nella creazione di bot Discord professionali</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h4>Full Stack Development</h4>
+                            <p>Espansione delle competenze verso lo sviluppo web completo</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h4>Game Server Management</h4>
+                            <p>Gestione di server di gioco e creazione di modpack personalizzati</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item active">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h4>Community Manager</h4>
+                            <p>Gestione di community online e progetti collaborativi</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Projects Section -->
+            <section class="projects-section">
+                <h3 class="section-title">
+                    <i class="fas fa-folder-open"></i>
+                    Progetti Principali
+                </h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fab fa-discord"></i>
+                            <h4>Discord Bots</h4>
+                        </div>
+                        <p>Bot Discord professionali per gestione server, moderazione e intrattenimento</p>
+                        <div class="project-tags">
+                            <span class="tag">Discord.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-cube"></i>
+                            <h4>Modpack Minecraft</h4>
+                        </div>
+                        <p>Creazione e gestione di modpack personalizzati per server Minecraft</p>
+                        <div class="project-tags">
+                            <span class="tag">Minecraft</span>
+                            <span class="tag">Forge</span>
+                            <span class="tag">CurseForge</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-globe"></i>
+                            <h4>Web Applications</h4>
+                        </div>
+                        <p>Sviluppo di applicazioni web moderne con tecnologie all'avanguardia</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Gallery Preview -->
+            <section class="gallery-preview">
+                <h3 class="section-title">
+                    <i class="fas fa-images"></i>
+                    Galleria Progetti
+                    <button class="gallery-btn" onclick="openGallery()">
+                        <i class="fas fa-external-link-alt"></i>
+                        Visualizza Tutto
+                    </button>
+                </h3>
+                <div class="gallery-grid" id="gallery-preview">
+                    <div class="gallery-item" onclick="openImage('project1.jpg')">
+                        <img src="assets/images/gallery/project1-thumb.jpg" alt="Progetto 1" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openImage('project2.jpg')">
+                        <img src="assets/images/gallery/project2-thumb.jpg" alt="Progetto 2" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openImage('project3.jpg')">
+                        <img src="assets/images/gallery/project3-thumb.jpg" alt="Progetto 3" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-watermark">© D4vide106</div>
+        </div>
+    </div>
+    
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="it">
+            <i class="fas fa-flag-checkered"></i> IT
+        </button>
+        <button class="lang-btn" data-lang="en">
+            <i class="fas fa-flag-usa"></i> EN
+        </button>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Made with ❤️ by D4vide106</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Termini di Servizio</a>
+                <a href="cookies.html">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="assets/js/particles-config.js"></script>
+    <script src="assets/js/discord-api.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
