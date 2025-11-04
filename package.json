@@ -1,0 +1,72 @@
+{
+  "name": "d4vide106-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio professionale e mistico di D4vide106 con integrazione Discord",
+  "private": true,
+  "homepage": "https://d4vide106.github.io/myportfolio",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.8.1",
+    "axios": "^1.3.4",
+    "framer-motion": "^10.0.1",
+    "react-particles": "^2.9.3",
+    "tsparticles": "^2.9.3",
+    "react-intersection-observer": "^9.4.3",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^12.2.0",
+    "i18next": "^22.4.13",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "styled-components": "^5.3.9",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-spring": "^9.6.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "keywords": [
+    "portfolio",
+    "discord",
+    "developer",
+    "d4vide106",
+    "react",
+    "particles",
+    "bot-developer"
+  ],
+  "author": "D4vide106 <132397667+D4vide106@users.noreply.github.com>",
+  "license": "MIT"
+}
